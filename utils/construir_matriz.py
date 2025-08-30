@@ -1,11 +1,6 @@
 from modelos.matriz import Matriz
 from estructuras.lista import Lista
 
-# =========================
-# Funciones auxiliares
-# =========================
-
-# contar elementos en una lista enlazada
 def contar_elementos(lista):
     contador = 0
     actual = lista.get_cabeza()
@@ -14,7 +9,7 @@ def contar_elementos(lista):
         actual = actual.get_siguiente()
     return contador
 
-# buscar posición de un id en una lista enlazada
+
 def buscar_columna(lista_ids, id_buscar):
     actual = lista_ids.get_cabeza()
     indice = 0
@@ -23,11 +18,8 @@ def buscar_columna(lista_ids, id_buscar):
             return indice
         actual = actual.get_siguiente()
         indice += 1
-    return -1  # no encontrado
+    return -1  
 
-# =========================
-# Matriz de Frecuencias
-# =========================
 def construir_matriz_frecuencias(campo):
     num_estaciones = contar_elementos(campo.get_estaciones())
     num_sensores_suelo = contar_elementos(campo.get_sensores_suelo())
@@ -43,7 +35,8 @@ def construir_matriz_frecuencias(campo):
         actual_est = actual_est.get_siguiente()
 
     fila = 0
-    # sensores de suelo
+   
+
     actual_suelo = campo.get_sensores_suelo().get_cabeza()
     while actual_suelo:
         sensor = actual_suelo.get_dato()
@@ -56,7 +49,7 @@ def construir_matriz_frecuencias(campo):
         fila += 1
         actual_suelo = actual_suelo.get_siguiente()
 
-    # sensores de cultivo
+   
     actual_cultivo = campo.get_sensores_cultivo().get_cabeza()
     while actual_cultivo:
         sensor = actual_cultivo.get_dato()
@@ -72,9 +65,9 @@ def construir_matriz_frecuencias(campo):
     return matriz, estaciones_ids
 
 def imprimir_matriz(matriz, estaciones_ids):
-    print("\nMatriz de Frecuencias (Sensores × Estaciones):")
+    print("\nMatriz de Frecuencias (Sensores x Estaciones):")
 
-    # cabeceras
+    
     print("       ", end="")
     actual_id = estaciones_ids.get_cabeza()
     while actual_id:
@@ -82,16 +75,14 @@ def imprimir_matriz(matriz, estaciones_ids):
         actual_id = actual_id.get_siguiente()
     print()
 
-    # filas
+
     for i in range(matriz.get_filas()):
         print(f"Sensor {i+1:2}: ", end="")
         for j in range(matriz.get_columnas()):
             print(f"{matriz.get_valor(i,j):8}", end="")
         print()
 
-# =========================
-# Matriz de Patrones
-# =========================
+
 def construir_matriz_patrones(matriz_frec):
     filas = matriz_frec.get_filas()
     columnas = matriz_frec.get_columnas()
@@ -123,9 +114,7 @@ def imprimir_matriz_patrones(matriz, estaciones_ids):
             print(f"{matriz.get_valor(i,j):8}", end="")
         print()
 
-# =========================
-# Matriz Reducida
-# =========================
+
 def columnas_iguales(matriz, col1, col2):
     filas = matriz.get_filas()
     for i in range(filas):
