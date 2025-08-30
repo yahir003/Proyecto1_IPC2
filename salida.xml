@@ -1,0 +1,207 @@
+<?xml version="1.0" ?>
+<salida>
+  <campo id="10">
+    <matriz nombre="frecuencias">
+      <columna estacion="e01">
+        <valor>1200</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>800</valor>
+        <valor>3200</valor>
+      </columna>
+      <columna estacion="e02">
+        <valor>1400</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>3400</valor>
+      </columna>
+      <columna estacion="e03">
+        <valor>1600</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1200</valor>
+      </columna>
+      <columna estacion="e04">
+        <valor>900</valor>
+        <valor>1800</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e05">
+        <valor>0</valor>
+        <valor>2000</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e06">
+        <valor>0</valor>
+        <valor>1100</valor>
+        <valor>2200</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e07">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>2400</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e08">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>2600</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e09">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>2800</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e10">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>3000</valor>
+        <valor>0</valor>
+      </columna>
+    </matriz>
+    <matriz nombre="patrones">
+      <columna estacion="e01">
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>1</valor>
+      </columna>
+      <columna estacion="e02">
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+      </columna>
+      <columna estacion="e03">
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+      </columna>
+      <columna estacion="e04">
+        <valor>1</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e05">
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e06">
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e07">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e08">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e09">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e10">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+      </columna>
+    </matriz>
+    <matriz nombre="reducida">
+      <columna estacion="e01">
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>1</valor>
+      </columna>
+      <columna estacion="e02">
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+      </columna>
+      <columna estacion="e04">
+        <valor>1</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e05">
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e06">
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e07">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e08">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+      </columna>
+      <columna estacion="e10">
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>0</valor>
+        <valor>1</valor>
+        <valor>0</valor>
+      </columna>
+    </matriz>
+  </campo>
+</salida>

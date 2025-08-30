@@ -1,8 +1,8 @@
 from modelos.sensor import Sensor
 
-class SensorCultivo(Sensor):
+class SensorSuelo(Sensor):
     def __init__(self, id, nombre):
         super().__init__(id, nombre)
 
     def __str__(self):
-        return f"SensorCultivo {self.get_id()}: {self.get_nombre()}"
+        return f"SensorSuelo {self.get_id()}: {self.get_nombre()}"
